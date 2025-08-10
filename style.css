@@ -53,8 +53,7 @@ header{
   display: flex;
   justify-content: space-between;
   position: sticky;
-  background-color: transparent;
-  backdrop-filter: blur(30px);
+  background-color: #fff;
   z-index: 50;
   top: 0;
   border-bottom: 1px solid hsl(var(--border))
@@ -674,4 +673,5 @@ main{
 .fa-play{
   font-size: 0.8rem;
   margin-right: 0.1rem;
+
 }
