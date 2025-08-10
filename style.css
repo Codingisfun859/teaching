@@ -484,7 +484,9 @@ main{
   .testimonials{
     padding: 5rem 5%;
   }
-
+  .logo{
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -675,3 +677,4 @@ main{
   margin-right: 0.1rem;
 
 }
+
