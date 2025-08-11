@@ -137,6 +137,12 @@ nav ul li a.active{
 .btn-primary:hover{
   background: linear-gradient(to right, hsl(var(--primary-light)), hsl(var(--secondary)));
 }
+.btn-primary i{
+  transition: 0.3s;
+}
+.btn-primary:hover i{
+  transform: translateX(5px);
+}
 main{
   padding: 1rem 10%;
   background: linear-gradient(135deg, hsl(var(--primary) / 0.1), hsl(var(--background)), hsl(var(--secondary) / 0.1));
@@ -678,6 +684,7 @@ main{
   margin-right: 0.1rem;
 
 }
+
 
 
 
